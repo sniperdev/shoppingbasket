@@ -6,6 +6,11 @@ class Basket {
   add(product) {
     this.products.push(product);
   }
+  showBasketTotalValue() {
+    let total = 0;
+    basket.products.forEach((product) => (total += product.price));
+    return total;
+  }
 }
 
 class Product {
