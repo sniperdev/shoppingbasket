@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Shopping Basket</title>
+    <meta charset="UTF-8">
+    <title>Shopping Basket</title>
+
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <section class="products">
-    <h1>Choose products:</h1>
-    <ul class="products-list">
-      <li>Kapcie świąteczne - 45,90 zł <button data-name="Kapcie świąteczne" data-price="45.9">Kup!</button></li>
-      <li>Mydło w płynie 0,5l - 12,50 zł <button data-name="Mydło w płynie 0,5l" data-price="12.5">Kup!</button></li>
-      <li>Patelnia do naleśników śr. 18 cm - 36,70 <button data-name="Patelnia do naleśników śr. 18 cm" data-price="36.7">Kup!</button></li>
-    </ul>
-  </section>
-  <section class="shopping-cart">
-    <h1>Your basket:</h1>
-    <ul class="shopping-list">
-      <li>Dodaj produkty...</li>
-    </ul>
-    <button class="buyButton">Dodaj najpierw produkty do listy</button>
-  </section>
-
-  <script src="basket.js"></script>
-  <script src="ui.js"></script>
+<section class="main-content">
+    <section class="products">
+        <h1>Choose products:</h1>
+        <ul class="products-list">
+            <li>Kapcie świąteczne - 45,90 zł
+                <button data-name="Kapcie świąteczne" data-price="45.9">Kup!</button>
+            </li>
+            <li>Mydło w płynie 0,5l - 12,50 zł
+                <button data-name="Mydło w płynie 0,5l" data-price="12.5">Kup!</button>
+            </li>
+            <li>Patelnia do naleśników śr. 18 cm - 36,70
+                <button data-name="Patelnia do naleśników śr. 18 cm" data-price="36.7">Kup!</button>
+            </li>
+        </ul>
+    </section>
+    <section class="shopping-cart">
+        <h1>Your basket:</h1>
+        <ul class="shopping-list">
+            <li>Dodaj produkty...</li>
+        </ul>
+        <button class="buyButton">Dodaj najpierw produkty do listy</button>
+    </section>
+</section>
+<script src="basket.js"></script>
+<script src="ui.js"></script>
 </body>
 </html>

@@ -10,7 +10,7 @@ class Basket {
   showBasketTotalValue() {
     let total = 0;
     basket.products.forEach((product) => (total += product.price));
-    return total.toFixed(2);
+    return total.toFixed(2)
   }
 
   getBasketSummary() {
